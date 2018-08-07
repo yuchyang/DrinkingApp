@@ -13,7 +13,7 @@
 		83BCA1112119948B0013C0D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCA10F2119948B0013C0D0 /* LaunchScreen.storyboard */; };
 		83BCA11C2119948B0013C0D0 /* DrinkingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCA11B2119948B0013C0D0 /* DrinkingAppTests.swift */; };
 		83BCA1272119948B0013C0D0 /* DrinkingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCA1262119948B0013C0D0 /* DrinkingAppUITests.swift */; };
-		83BCA1352119A1250013C0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BCA1342119A1250013C0D0 /* Assets.xcassets */; };
+		83BCA1372119A82C0013C0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BCA1362119A82C0013C0D0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		83BCA1222119948B0013C0D0 /* DrinkingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BCA1262119948B0013C0D0 /* DrinkingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkingAppUITests.swift; sourceTree = "<group>"; };
 		83BCA1282119948B0013C0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83BCA1342119A1250013C0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83BCA1362119A82C0013C0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,9 @@
 		83BCA1052119948A0013C0D0 /* DrinkingApp */ = {
 			isa = PBXGroup;
 			children = (
-				83BCA1342119A1250013C0D0 /* Assets.xcassets */,
 				83BCA1062119948A0013C0D0 /* AppDelegate.swift */,
 				83BCA1082119948A0013C0D0 /* ViewController.swift */,
+				83BCA1362119A82C0013C0D0 /* Assets.xcassets */,
 				83BCA10A2119948A0013C0D0 /* Main.storyboard */,
 				83BCA10F2119948B0013C0D0 /* LaunchScreen.storyboard */,
 				83BCA1122119948B0013C0D0 /* Info.plist */,
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BCA1112119948B0013C0D0 /* LaunchScreen.storyboard in Resources */,
-				83BCA1352119A1250013C0D0 /* Assets.xcassets in Resources */,
+				83BCA1372119A82C0013C0D0 /* Assets.xcassets in Resources */,
 				83BCA10C2119948A0013C0D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
