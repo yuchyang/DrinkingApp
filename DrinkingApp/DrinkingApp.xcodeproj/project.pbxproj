@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83BB5C7E211AAA5F00047DF9 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 83BB5C7D211AAA5F00047DF9 /* Classes */; };
 		83BCA1072119948A0013C0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCA1062119948A0013C0D0 /* AppDelegate.swift */; };
 		83BCA10C2119948A0013C0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCA10A2119948A0013C0D0 /* Main.storyboard */; };
 		83BCA1112119948B0013C0D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCA10F2119948B0013C0D0 /* LaunchScreen.storyboard */; };
@@ -34,7 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83BB5C7D211AAA5F00047DF9 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		83BCA1032119948A0013C0D0 /* DrinkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BCA1062119948A0013C0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83BCA10B2119948A0013C0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +72,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83BB5C80211AAEA700047DF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83BCA1122119948B0013C0D0 /* Info.plist */,
+				83BCA10F2119948B0013C0D0 /* LaunchScreen.storyboard */,
+				83BCA1362119A82C0013C0D0 /* Assets.xcassets */,
+				83BCA1062119948A0013C0D0 /* AppDelegate.swift */,
+				83BB5C81211AAEA700047DF9 /* Tools */,
+				83BB5C82211AAEA700047DF9 /* Profile */,
+				83BB5C83211AAEA700047DF9 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		83BB5C81211AAEA700047DF9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		83BB5C82211AAEA700047DF9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		83BB5C83211AAEA700047DF9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				83BCA10A2119948A0013C0D0 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		83BCA0FA2119948A0013C0D0 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +131,7 @@
 		83BCA1052119948A0013C0D0 /* DrinkingApp */ = {
 			isa = PBXGroup;
 			children = (
-				83BCA1062119948A0013C0D0 /* AppDelegate.swift */,
-				83BB5C7D211AAA5F00047DF9 /* Classes */,
-				83BCA1362119A82C0013C0D0 /* Assets.xcassets */,
-				83BCA10A2119948A0013C0D0 /* Main.storyboard */,
-				83BCA10F2119948B0013C0D0 /* LaunchScreen.storyboard */,
-				83BCA1122119948B0013C0D0 /* Info.plist */,
+				83BB5C80211AAEA700047DF9 /* Classes */,
 			);
 			path = DrinkingApp;
 			sourceTree = "<group>";
@@ -230,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BCA1112119948B0013C0D0 /* LaunchScreen.storyboard in Resources */,
-				83BB5C7E211AAA5F00047DF9 /* Classes in Resources */,
 				83BCA1372119A82C0013C0D0 /* Assets.xcassets in Resources */,
 				83BCA10C2119948A0013C0D0 /* Main.storyboard in Resources */,
 			);
