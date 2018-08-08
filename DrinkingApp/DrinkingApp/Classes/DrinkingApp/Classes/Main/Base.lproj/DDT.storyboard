@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vls-PB-R8f">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Delay Discounting Task-->
+        <scene sceneID="XBl-wc-Kqv">
+            <objects>
+                <viewController title="Delay Discounting Task" id="P93-Bw-mYR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hj2-8H-yPa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PVH-gM-EE1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eKg-hw-YGA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XCH-mn-vxH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2295.1999999999998" y="-755.17241379310349"/>
+        </scene>
+        <!--Delay Discounting Task-->
+        <scene sceneID="7ES-h9-t7t">
+            <objects>
+                <navigationController title="Delay Discounting Task" automaticallyAdjustsScrollViewInsets="NO" id="Vls-PB-R8f" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Delay Discounting Task" id="u1k-Jr-dLb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xKS-kB-Ks9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="P93-Bw-mYR" kind="relationship" relationship="rootViewController" id="0Pk-Gt-O4M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pno-Fl-hFC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1356" y="-755.17241379310349"/>
+        </scene>
+    </scenes>
+</document>
