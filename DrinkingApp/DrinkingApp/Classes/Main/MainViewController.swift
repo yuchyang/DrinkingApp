@@ -13,7 +13,7 @@ class MainViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let childVC = UIStoryboard(name:"SST",bundle:nil).instantiateInitialViewController()!
+        let childVC = UIStoryboard(name:"DDT",bundle:nil).instantiateInitialViewController()!
          addChildViewController(childVC)
         // Do any additional setup after loading the view.
     }
